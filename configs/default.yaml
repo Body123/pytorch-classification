@@ -1,5 +1,5 @@
 base:
-  data_path: /path/to/your/dataset
+  data_path: /kaggle/working/pkl_data
   data_index: null # alternative way to build dataset. check README for more details
   save_path: ./run/experiment # path to save
   device: cuda
@@ -19,7 +19,7 @@ dist:
   rank: 0 # node rank for distributed training
 
 data:
-  num_classes: 1000 # number of classes
+  num_classes: 3 # number of classes
   input_size: 224 # image size
   in_channels: 3 # number of image channel
   mean: auto # 'auto' or a list of three numbers for RGB
