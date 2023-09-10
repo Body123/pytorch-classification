@@ -1,6 +1,6 @@
 base:
-  data_path: /kaggle/working/pkl_data
-  data_index: null # alternative way to build dataset. check README for more details
+  data_path: null
+  data_index: /kaggle/working/pkl_data # alternative way to build dataset. check README for more details
   save_path: ./run/experiment # path to save
   device: cuda
   random_seed: 0 # set to -1 to disable random seed
