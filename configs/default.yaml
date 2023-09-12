@@ -40,7 +40,7 @@ train:
   pretrained: true # load weights from pre-trained model training on ImageNet
   checkpoint: null # load weights from other pretrained model
   epochs: &epochs 50
-  batch_size: 8
+  batch_size: 6
   num_workers: 8 # number of cpus used to load data at each step
   criterion: cross_entropy # available criterions are list in 'criterion_args' below
   loss_weight: null # null / balance / dynamic / list with shape num_classes. Weights for loss function. Don't use it with weighted sampling!
